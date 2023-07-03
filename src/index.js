@@ -25,4 +25,6 @@ app.get("/ping", async (req, res) => {
 
 
 app.listen(process.env.NODE_LOCAL_PORT);
+
+
 console.log(`server is running on port ,${process.env.NODE_LOCAL_PORT}`);
